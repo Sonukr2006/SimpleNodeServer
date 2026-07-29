@@ -1,0 +1,24 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "A simple server project with /health api",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonukr2006/SimpleNodeServer.git"
+  },
+  "author": "Sonu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sonukr2006/SimpleNodeServer/issues"
+  },
+  "homepage": "https://github.com/Sonukr2006/SimpleNodeServer#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
